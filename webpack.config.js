@@ -89,6 +89,13 @@ module.exports = {
       template: './src/lessons/10-layout.html',
       inject: 'head',
       filename: 'lessons/10-layout.html'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Story board template',
+      myPageHeader: 'story-board-template',
+      template: './src/lessons/story-board-template.html',
+      inject: 'head',
+      filename: 'lessons/story-board-template.html'
     })
   ],
   devServer: {
